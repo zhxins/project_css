@@ -1,0 +1,26 @@
+.image{
+	border: 1px solid darkgray;
+	width: auto;
+	height: auto;
+	text-align: center;
+}
+img{
+	margin: 5px;
+}
+.text{
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+div{
+	width: 100px;
+	height: 100px;
+	background-color: blue;
+}
+/*.div2{
+	transform: translate(100px,100px);
+	-webkit-transform: translate(100px,100px);  /** safari  chrome**/  
+}*/
+.div2{
+	transform: scale(1,2);
+	-webkit-transform: scale(1,2);  /** safari  chrome**/  
+}

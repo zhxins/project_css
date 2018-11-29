@@ -1,0 +1,29 @@
+.p1{
+	color: red;
+}
+.p2{
+	font-size: 20px;
+}
+.p1.p2{
+	font-style: italic;
+}
+#div1{
+	font-style: oblique;
+}
+
+p>strong>i{
+	color:#008B8B;
+	font-size: 20px;
+}
+
+ul 	li+li{
+	font-size: 50px;
+	color: #00FF00;
+	list-style: none;
+}
+
+ol li+li{
+	font-size: 50px;
+	color: #00FF00;
+	margin-left: 40px;
+}

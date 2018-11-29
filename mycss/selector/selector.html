@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>选择器</title>
+		<link rel="stylesheet" href="selector.css" />
+	</head>
+	<style>
+		[title=as]{
+			color: red;
+		}
+		[href="www.baidu.com"] {
+			font-size: 25px;
+		}
+		/*模糊匹配*/
+		[title~="title"] {
+			
+		}
+	</style>
+	<body>
+		<div id="div1">
+			hello,world
+		</div>
+		
+		<a href="www.baidu11.com">链接</a>
+		
+		<p>this is a <strong>web <i> hello</i></strong> page</p>
+		
+		<div>
+			<ul>
+				<li>item1</li>
+				<li>item2</li>
+				<li>item3</li>
+				<li>item4</li>
+			</ul>
+			
+			<ol>
+				<li>item1</li>
+				<li>item2</li>
+				<li>item3</li>
+				<li>item4</li>
+			</ol>
+		</div>
+		
+	</body>
+</html>

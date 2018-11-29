@@ -1,0 +1,68 @@
+body{
+	margin: 0px;
+	color: #00FFFF;
+}
+p{
+	font-size: 50px;
+	font-family:"宋体";
+	font-style: initial;
+	font-variant: all-petite-caps;
+	font-weight: bold;
+}
+/*普通的，未被访问的额链接
+  text-decoration 去掉连接中的下划线
+ * */
+a:link{
+	color: #FF0000;
+	text-decoration: none
+}
+/*用户已访问的连接*/
+a:visited{
+	color: #00ff00;
+}
+/*鼠标悬浮链接上方*/
+a:hover{
+	color: #0000FF;
+}
+/*链接被点击的时刻*/
+a:active{
+	color: #00FFFF;
+}
+
+ul li{
+	/*list-style-type: circle;*/
+	list-style-image: url(../img/HBuilder.png);
+	list-style-position: inside;
+}
+
+td{
+	padding-left: 100px;
+	padding-top: 100px;
+}
+
+.container{
+	margin: 50px;
+}
+.bd{
+	border-style: dotted;
+}
+.pd{
+	padding: 100px;
+}
+.content{
+	background-color: blue;
+}
+
+/*外边距合并*/
+.container1{
+	margin: 50px;
+}
+.bd1{
+	border-style: dotted;
+}
+.pd1{
+	padding: 100px;
+}
+.content1{
+	background-color: blue;
+}

@@ -1,0 +1,93 @@
+*{
+	margin:0px;
+	padding: 0px;;
+}
+body{
+	background-color: snow;
+}
+.wrapper{
+	width: 80%;
+	height: 1000px;
+	background-color: antiquewhite;
+	margin: 0px auto;
+}
+.head{
+	width: 100%;
+	height: 90px;;
+	background-color: snow;
+	margin: 0px auto;
+}
+ul{
+	margin-left: 40px;
+	float: left;
+	list-style: none;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+li{
+	display: inline;
+	padding-left: 10px;
+}
+a:link, a:visited{
+	font-weight: bold;
+	color: darkgray;
+	text-align: center;
+	padding: 6px;
+	text-decoration: none;
+}
+a:hover, a:active{
+	color: dimgray;
+}
+.head_title{
+	float: left;
+	font-family: "arial, helvetica, sans-serif";
+	font-size: 30px;
+	color: burlywood;
+}
+.head_nav{
+	padding-bottom: 30px;
+	padding-top: 30px;
+	width: 100%;
+	height: 30px;
+	position: relative;
+}
+.head_img img{
+	width: 25px;
+	height: 25px;
+	border-radius: 25px;
+	display: inline;
+	float: right;
+	
+}
+.head_sop form{
+	float: right;
+	width: 100px;
+	height: 26px;
+	position: relative;
+	margin-right: 90px;
+}
+form input{
+	height: 26px;
+	border-radius: 30px;
+}
+.foot{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 10px;
+	color: darkgray;
+	vertical-align: middle;
+}
+.body{
+	padding: 30px;
+	height: auto;
+	width: auto;
+}
+.body_title h3{
+	font-size: 30px;
+	font-family: "arial, helvetica, sans-serif";
+}
+.body_title p{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

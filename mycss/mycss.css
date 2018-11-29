@@ -1,0 +1,31 @@
+li strong{
+	color: red;
+}
+strong{
+	color: blue;
+}
+#pid a{
+	color:aqua;
+}
+#divid {
+	color: blueviolet;
+}
+.pclass {
+	font-size: large;
+}
+.pclass a{
+	
+}
+body{
+	/*background-color: darkgray;*/
+	background-image: url("img/HBuilder.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 500px 500px;
+}
+p{
+	width: 150px;
+	padding: 10px;
+	/*background-color: blue;*/
+	/*background-image: url("img/HBuilder.png");*/
+}
